@@ -16,6 +16,7 @@ const Task_body = ({data}) => {
                 <tr>
                     <td colSpan="2"><Link to={`/details/${data.id}`}>{data.title}</Link></td>
                     <td>{data.completed ? <img src={checked} alt="error"/> : <img src={unchecked} alt="error"/>}</td>
+                    <td>{data.deadline}</td>
                     <td>
                       <Link to={`/edit/${data.id}`}><img src={pencil} alt="edit" /></Link>
                       <Link to={`/delete/${data.id}`}><img src={trash} alt="delete" /></Link>

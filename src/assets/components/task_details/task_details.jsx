@@ -11,6 +11,7 @@ const Task_details = ({data}) => {
             <p>Tarefa: {data.title}</p>
             <p>Descrição: {data.description}</p>
             <p>Status: {data.completed ? "Feito" : "Pendente"}</p>
+            <p>Deadline: {data.deadline}</p>
         </div>
         <div className='confirm_buttons'>
             <Link to={"/"}><button className='negative_button'>Voltar</button></Link>

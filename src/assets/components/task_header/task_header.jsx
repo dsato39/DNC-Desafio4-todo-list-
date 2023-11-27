@@ -11,6 +11,7 @@ const Task_header = () => {
             <tr>
               <th colSpan="2">Tarefa</th>
               <th>Status</th>
+              <th>Deadline</th>
               <th>Opções</th>
               </tr>
           </thead>
