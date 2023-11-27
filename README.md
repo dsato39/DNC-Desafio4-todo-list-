@@ -1,4 +1,4 @@
-# DNC-Desafio3-todo-list
-Este é o projeto do Desafio 3 da formação em Tecnologia da Escola DNC. 
+# DNC-Desafio4-todo-list
+Este é o projeto do Desafio 4 da formação em Tecnologia da Escola DNC. 
 
-link do site: https://dnc-desafio3-todolist-danielsato.netlify.app/
+link do site: https://dnc-desafio4-todolist-danielsato.netlify.app/
