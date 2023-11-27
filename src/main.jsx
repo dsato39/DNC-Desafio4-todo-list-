@@ -17,6 +17,7 @@ import Add from './assets/views/add/add';
 
 //Import db
 import {tasks_mock} from './mock/bd.mock'
+import Details from './assets/views/details/details';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
   {
     path: "/add",
     element: <Add />,
+  },
+
+  {
+    path: "/details/:detailsId",
+    element: <Details data={tasks_mock}/>,
   },
 
 ]);

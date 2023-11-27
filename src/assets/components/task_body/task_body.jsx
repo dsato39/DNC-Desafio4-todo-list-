@@ -14,7 +14,7 @@ const Task_body = ({data}) => {
         <table>
             <tbody>
                 <tr>
-                    <td colSpan="2">{data.title}</td>
+                    <td colSpan="2"><Link to={`/details/${data.id}`}>{data.title}</Link></td>
                     <td>{data.completed ? <img src={checked} alt="error"/> : <img src={unchecked} alt="error"/>}</td>
                     <td>
                       <Link to={`/edit/${data.id}`}><img src={pencil} alt="edit" /></Link>

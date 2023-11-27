@@ -9,7 +9,7 @@ const Edit = ({data}) => {
   const selectedTask = data.find((task) => task.id == editId);
   
   return (
-    <div className="edit">
+    <div>
       <Home_header />
       <Home_main />
       <Edit_task data={selectedTask}/>
